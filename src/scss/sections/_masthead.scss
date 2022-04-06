@@ -1,13 +1,37 @@
 // 
 // Masthead
 // 
+body{
+    color: #383838;
+    background: linear-gradient(0deg, #effd21 0%, #77da3e 100%);
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.display-4{
+    font-weight: bold;
+}
+
+.col-lg-4{
+    text-align: center;
+}
+
+.img-fluid{
+    max-width: 200px;
+}
+
+.bg-black{
+    background: #3e3e3e !important;
+}
 
 header.masthead {
     position: relative;
     overflow: hidden;
-    padding-top: calc(7rem + 72px);
-    padding-bottom: 7rem;
-    background: linear-gradient(0deg, $secondary 0%, $primary 100%);
+    padding-top: 100px;
+    padding-bottom: 150px;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
@@ -23,6 +47,8 @@ header.masthead {
 
         .masthead-subheading {
             font-size: 2rem;
+            color: #3b3939;
+            text-decoration: underline;
         }
     }
 
@@ -30,7 +56,6 @@ header.masthead {
         z-index: 0;
         position: absolute;
         border-radius: 100%;
-        background: linear-gradient(0deg, $primary 0%, $secondary 100%);
     }
 
     .bg-circle-1 {
@@ -64,16 +89,19 @@ header.masthead {
 
 @media (min-width: 992px) {
     header.masthead {
-        padding-top: calc(10rem + 55px);
-        padding-bottom: 10rem;
+        padding-top: 100px;
+        padding-bottom: 150px;
 
         .masthead-content {
             .masthead-heading {
                 font-size: 6rem;
+                color: #383838;
             }
 
             .masthead-subheading {
                 font-size: 4rem;
+                color: #3b3939;
+                text-decoration: underline;
             }
         }
     }
